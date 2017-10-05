@@ -3,14 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ThreeStones_Game;
+package ThreeStones_Game.enums;
 
 /**
  *
- * @author 1434032
+ * @author 1331680
  */
-public interface IGame {
-    //public  validateMove(int y, int x);
-    public boolean updateBoard(int y, int x, int player);
-    
+public enum Turn {
+    PLAYER, SERVER
 }
